@@ -97,31 +97,4 @@ form input.operator{
             }
         }
 
-        /* Tablet (768px to 1023px) */
-        @media (min-width: 768px) and (max-width: 1023px) {
-            .calculator-container {
-                max-width: 450px;
-                padding: 25px;
-            }
-            
-            .display {
-                height: 130px;
-                padding: 25px;
-            }
-            
-            .current-operation {
-                font-size: 2.8rem;
-            }
-            
-            .button {
-                height: 75px;
-                font-size: 1.6rem;
-            }
-            
-            .device-icon:nth-child(2) {
-                opacity: 1;
-                color: #4cd964;
-            }
-        }
-
         
